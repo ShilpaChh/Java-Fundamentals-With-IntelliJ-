@@ -7,12 +7,21 @@ class Message {
         Message.hello();
 
         // Chapter 4 - Instance Methods
-        
-
+//        String name = "Shilpa";
+//        Integer age = 46;
+       // Message.secret();
+            // System.out.println(Message.secret());
+        Message myMessage = new Message(); // variable, myMessage is of type Message and we are creating a new instance of class Message
+        myMessage.secret();
+        System.out.println(myMessage.secret());
     }
 
     public static void hello() {
         System.out.println("Hello");
     }
 
+    // Chapter 4 - Instance Methods
+    public String secret() {
+        return "jfewjhfuewhrufgru";
+    }
 }
