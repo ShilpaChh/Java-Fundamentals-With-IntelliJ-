@@ -18,6 +18,7 @@ class Message1 {
     // adding a constructor - name shd be the same as the class
     public Message1(String author, String content) {
         // now assigning to instance fields:
+        // 'this' is used for setting values for instance fields for the instance created.
             this.author = author;
             this.content = content;
     }
