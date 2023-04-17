@@ -29,7 +29,7 @@ public class HelloWorldController {
 
     @GetMapping("/quotes")
     public ModelAndView quotes(){
-        return new ModelAndView("quotes"); // now create a new HTML, links file in templates
+        return new ModelAndView("quotes"); // now create a new HTML, quotes file in templates
     }
 
 }
