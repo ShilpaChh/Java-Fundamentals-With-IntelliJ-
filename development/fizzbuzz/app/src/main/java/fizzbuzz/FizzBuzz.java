@@ -10,7 +10,7 @@ public class FizzBuzz {
         } else if (number % 3 == 0) {
             return "Fizz";
         } else   {
-            return "1";
+            return String.valueOf(number); // correction after Coach review
         }
 //        else {
 //            return "Number is not divisible by 15, 5 or 3";
